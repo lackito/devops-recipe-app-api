@@ -55,11 +55,3 @@ resource "aws_iam_user_policy_attachment" "tf_backend" {
   policy_arn = aws_iam_policy.tf_backend.arn
 }
 
-###################################################################
-# Create IAM user and policies for Continuous Deploy (CD) account #
-###################################################################
-
-
-###################################################################
-# Create IAM user and policies for Continuous Deploy (CD) account #
-###################################################################
